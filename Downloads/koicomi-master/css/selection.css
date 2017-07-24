@@ -1,0 +1,78 @@
+article{
+	font-size:15px;
+	text-align:center;
+}
+article h3{
+	text-align:center;
+	color:#ee827c;
+}
+
+table.pic_selection{
+	width: 90%;
+	margin-right:auto;
+	margin-left:auto;	
+	border:10px dashed white;
+}
+
+table.pic_selection tr td{
+	text-align:center;
+	padding-bottom:20px;
+	border-bottom:10px dashed white;		
+}
+
+a {
+	text-decoration:none;
+}
+
+/*ボタンのデザイン
+http://www.nxworld.net/tips/10-css-cute-design-good-chemistry-button-design-and-hover-effect.html*/
+
+.button,
+.button span {
+	position: relative;
+	display: inline-block;
+}
+.button span {
+	width:100px;
+	height:30px;
+	font-size:20px;
+	padding: .65em 4em;
+	background: -webkit-linear-gradient(#fe5f95 , #ff3f7f);
+	background: linear-gradient(#fe5f95 , #ff3f7f);
+	border: 1px solid #fe3276;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.button::after {
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 24px;
+	background-color: rgba(0,0,0,.1);
+	border-radius: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.button:hover span {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.button:hover::after {
+	width: 70%;
+	height: 18px;
+}
+
+
+article img{
+	margin:20px;
+	width:400px;
+}

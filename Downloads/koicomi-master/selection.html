@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>koi comics</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/selection.css" rel="stylesheet" type="text/css" />
+    <link href="./css/nav.css" rel="stylesheet"> <!-- Resource style -->
+    <script src="./js/nav.js"></script> <!-- Modernizr -->
+    
+    <link rel="stylesheet" type="text/css" href="./resource/lightbox.css" media="screen,tv" />
+    <script type="text/javascript" charset="UTF-8" src="./resource/lightbox_plus.js"></script>
+    
+  </head>
+  
+  <body>
+    <header>
+      <img src="./imgs/logo1.png" width=260px height=60px align="center">
+    </header>
+    
+    <nav>
+      <ol class="cd-multi-steps text-center custom-icons">
+        <li class="current"><em><img src="./imgs/select.png" align="left" >Selection</em></li>
+        <li><em><img src="./imgs/text.png" align="left">Text</em></li>
+        <li><em><img src="./imgs/stamp.png" align="left">Stamp</em></li>
+        <li><em><img src="./imgs/save.png" align="left">Save</em></li>
+      </ol>
+    </nav>
+    
+    
+    <section>
+      <article>
+	<h3>作成したいデザインを選択してください</h3>
+	イメージをタップすると拡大、<br />
+	ボタンをタップすると編集ページに進みます。<br />
+	
+	<table class="pic_selection">
+	  <tr>
+	    <td>
+	      <a href="./imgs/aiaigasa.jpg" rel="lightbox[sample]" title="あいあい傘">
+		<img src="./imgs/aiaigasa.jpg"></a><br />
+	      <a class="button" href="edit.php?img=aiaigasa"><span>Select</span></a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <a href="./imgs/atamapon.jpg" rel="lightbox[sample]" title="あたまぽんぽん">
+		<img src="./imgs/atamapon.jpg"></a><br />
+	      <a class="button" href="edit.php?img=atamapon"><span>Select</span></a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <a href="./imgs/kabedon.jpg" rel="lightbox[sample]" title="壁ドン">
+		<img src="./imgs/kabedon.jpg"></a><br />
+	      <a class="button" href="edit.php?img=kabedon"><span>Select</span></a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <a href="./imgs/tetsunagi.jpg" rel="lightbox[sample]" title="手をつなぐ">
+		<img src="./imgs/tetsunagi.jpg"></a><br />
+	      <a class="button" href="edit.php?img=tetsunagi"><span>Select</span></a>
+	    </td>
+	  </tr>
+	</table>
+      </article>
+    </section>
+    
+  </body>
+</html>
